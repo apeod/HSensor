@@ -123,7 +123,7 @@ public class HSensorService extends Service implements SensorEventListener {
 		HSensorDatas data = new HSensorDatas(mTempV, mPresureV, mHumdityV);
 		intent.putExtra("HSensoData", data);
 		// update(mContext);
-		Log.v(TAG, "sensor change!:" + mTempV);
+		//Log.v(TAG, "sensor change!:" + mTempV);
 		sendBroadcast(intent);
 	}
 

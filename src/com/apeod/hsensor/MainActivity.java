@@ -16,6 +16,7 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
 		// mSensorM = (SensorManager) getSystemService(SENSOR_SERVICE);
 		// mTempS = mSensorM.getDefaultSensor(Sensor.TYPE_AMBIENT_TEMPERATURE);
 		// mSensorM.registerListener(this, mTempS,
